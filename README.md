@@ -90,7 +90,7 @@ The template asks: **"What scheduling rule should I learn from today?"**
 
 This forces the agent to extract patterns, not just log events:
 - "Meeting overran by 30 min" → "Add 15 min buffer after client calls"
-- "Pickup time changed last minute" → "Keep afternoons flexible on school days"
+- "Appointment moved last minute" → "Keep afternoons flexible on busy days"
 
 Patterns get promoted to `MEMORY.md` over time. The agent gets better at planning because it remembers what went wrong.
 
@@ -125,7 +125,7 @@ _This section is for your agent to read when building your custom system._
    - What messaging channel do you use?
    - What calendar tool do you use? (GOG, MCP Google Calendar, etc.)
    - Do you have quiet hours? When?
-   - Any recurring events or constraints? (school pickup, family dinner, gym, etc.)
+   - Any recurring events or constraints? (gym, commute, standing meetings, etc.)
 
 3. **Build custom versions** of each file for their life:
    - `SYSTEMS.md` — Adapt the 5-gate protocol. Keep the gates, customize the hard rules.
@@ -203,7 +203,7 @@ If any gate is missing, the system is working — because you can see what was s
 
 ### Timezone
 
-Scripts default to `Europe/Amsterdam`. Override when traveling:
+Scripts default to `America/Los_Angeles`. Override when traveling:
 
 ```bash
 TZ=America/New_York bash scripts/calendar-today.sh
@@ -213,10 +213,10 @@ To change the default, edit the `TZ` line in both scripts.
 
 ### Work Hours
 
-Scripts default to 08:00–17:30. Override:
+Scripts default to 10:00–22:00. Override:
 
 ```bash
-WORK_START=0900 WORK_END=1800 bash scripts/calendar-today.sh
+WORK_START=1100 WORK_END=2300 bash scripts/calendar-today.sh
 ```
 
 ### Hard Rules

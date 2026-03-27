@@ -4,7 +4,7 @@
 # Each argument is a HH:MM-HH:MM time range
 
 # Default timezone. Override with TZ env var when traveling.
-export TZ="${TZ:-Europe/Amsterdam}"
+export TZ="${TZ:-America/Los_Angeles}"
 
 if [ $# -eq 0 ]; then
   echo "Usage: bash scripts/check-conflicts.sh \"HH:MM-HH:MM\" [\"HH:MM-HH:MM\" ...]"

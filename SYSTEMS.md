@@ -30,7 +30,7 @@ Write out the **full task inventory** before scheduling anything:
 TASK INVENTORY:
 - [ ] Campaign brief (carried from yesterday)
 - [ ] Email catch-up (new today)
-- [→] Blog draft (deferred yesterday — no time after pickup)
+- [→] Blog draft (deferred yesterday — gym ran long)
 ```
 
 Every task your human has mentioned that isn't done must appear here. If a task is missing, stop and find it.
@@ -77,7 +77,7 @@ When something changes (new event, task overrun, schedule disruption):
 
 1. **Print current task ledger** — every task with current status
 2. **Run `bash scripts/calendar-today.sh`** — get updated calendar
-3. **Show what changed and why** — e.g. "Pickup moved to 14:00, school called"
+3. **Show what changed and why** — e.g. "Appointment moved to 14:00, clinic called"
 4. **Account for every task:**
    - `[ ]` scheduled → show new time slot
    - `[→]` deferred → show reason
@@ -102,7 +102,7 @@ Fill in the debrief section of today's daily plan (`daily-plan/YYYY-MM-DD.md`):
 5. **Energy/wellbeing note** — how was the day?
 
 **The "pattern to remember" is the most important question.** This is how you get smarter. Examples:
-- "School pickup can shift with short notice → keep afternoon flexible on school days"
+- "Afternoon appointments can shift with short notice → keep afternoon flexible"
 - "Deep work sessions take 2h not 1.5h → estimate longer next time"
 - "Energy drops after back-to-back calls → add buffer time after calls"
 
@@ -115,8 +115,8 @@ After the debrief, check: is this pattern worth remembering permanently? If yes,
 _Customize these for your human's life._
 
 - Calendar events are **FIXED** unless your human explicitly says to move one
-- Hard stop: **17:30** (set your actual time)
-- Quiet hours: **22:00–08:00** (set your actual hours)
+- Hard stop: **22:00** (set your actual time)
+- Quiet hours: **22:00–10:00** (set your actual hours)
 - Tasks never disappear — done `[x]`, deferred `[→]`, or dropped `[✗]` with approval
 - If workload doesn't fit available windows, say so explicitly and offer alternatives
 - Never silently shift, remove, or overwrite a task or calendar event

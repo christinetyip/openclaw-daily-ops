@@ -21,7 +21,7 @@ _Track how long things actually take vs. how long you estimated._
 
 _Patterns extracted from daily debriefs._
 
-- (e.g. "School pickup can shift with short notice — keep afternoon flexible")
+- (e.g. "Afternoon appointments can shift — keep 13:00-15:00 flexible")
 - (e.g. "Energy drops after back-to-back calls — add buffer time")
 
 ## Preferences

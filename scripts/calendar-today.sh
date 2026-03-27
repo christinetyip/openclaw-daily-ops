@@ -4,10 +4,10 @@
 # Optional: WORK_START=0900 WORK_END=1730 bash scripts/calendar-today.sh
 
 # Default timezone. Override with TZ env var when traveling.
-export TZ="${TZ:-Europe/Amsterdam}"
+export TZ="${TZ:-America/Los_Angeles}"
 
-WORK_START="${WORK_START:-0800}"
-WORK_END="${WORK_END:-1730}"
+WORK_START="${WORK_START:-1000}"
+WORK_END="${WORK_END:-2200}"
 
 TMPFILE=$(mktemp)
 gog calendar events --today --all --max 50 --json --no-input 2>/dev/null > "$TMPFILE"

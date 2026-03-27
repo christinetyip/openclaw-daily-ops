@@ -15,8 +15,8 @@ _Keep this short. You read it every 30 minutes. Don't burn tokens._
 
 _Set these to match your human's life._
 
-- Active: 08:00–22:00
-- Quiet: 22:00–08:00 (no messages unless urgent)
+- Active: 10:00–22:00
+- Quiet: 22:00–10:00 (no messages unless urgent)
 
 ## Morning
 
@@ -28,7 +28,7 @@ If no daily plan exists yet and it's a workday:
 
 ## Active Hours — Ops Manager Mode
 
-_Every heartbeat during active hours, run this checklist. Covers work AND personal life — calendar events, errands, family stuff, social plans. Read today's daily plan first._
+_Every heartbeat during active hours, run this checklist. Covers work AND personal life — calendar events, errands, appointments, social plans. Read today's daily plan first._
 
 ### Priority 1: Transition alerts (check every heartbeat)
 
